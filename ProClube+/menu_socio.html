@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Clube</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+    <link rel="stylesheet" href="menu_socio.css">
+</head>
+<body>
+
+    <header>
+        <!-- Botão no Canto Superior Esquerdo -->
+        <button class="btn-profile" onclick="alert('Redirecionando para o perfil do associado...')">
+            👤 Meu Perfil
+        </button>
+        <span class="brand-title">Portal do Associado</span>
+    </header>
+
+    <main>
+        <!-- CAMADA 1: ESPAÇOS DE RESERVA -->
+        <section class="section-layer">
+            <h2 class="section-title">🏢 Espaços para Reserva</h2>
+            <div class="grid-container">
+                
+                <!-- Espaço 1 -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Churrasqueira+Gourmet" alt="Churrasqueira" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Churrasqueira Gourmet</h3>
+                        <p class="card-info">Capacidade: 30 pessoas<br>Equipada com freezer, grelha e som ambiente.</p>
+                        <button class="card-btn">Solicitar Reserva</button>
+                    </div>
+                </div>
+
+                <!-- Espaço 2 -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Quadra+de+Tenis" alt="Quadra de Tênis" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Quadra de Tênis A</h3>
+                        <p class="card-info">Piso de saibro, iluminação noturna em LED.<br>Horários disponíveis das 08h às 22h.</p>
+                        <button class="card-btn">Solicitar Reserva</button>
+                    </div>
+                </div>
+
+                <!-- Espaço 3 -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Salão+de+Festas" alt="Salão de Festas" class="card-img">
+                    <div class="card-content">
+                        <h3 class="card-title">Salão Nobre de Festas</h3>
+                        <p class="card-info">Capacidade: 150 pessoas<br>Ar condicionado central, cozinha industrial e palco.</p>
+                        <button class="card-btn">Solicitar Reserva</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CAMADA 2: EVENTOS DO CLUBE -->
+        <section class="section-layer">
+            <h2 class="section-title">🎉 Próximos Eventos</h2>
+            <div class="grid-container">
+
+                <!-- Evento 1 -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Torneio+de+Futebol" alt="Torneio de Futebol" class="card-img">
+                    <div class="card-content">
+                        <span class="badge">Esporte</span>
+                        <h3 class="card-title">Torneio Interno de Futebol</h3>
+                        <p class="card-info">Grande campeonato entre associados. Venha torcer e participar com sua equipe!</p>
+                        <button class="card-btn" style="background-color: #2563eb;">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <!-- Evento 2 -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Noite+do+Queijo+e+Vinho" alt="Queijo e Vinho" class="card-img">
+                    <div class="card-content">
+                        <span class="badge">Social</span>
+                        <h3 class="card-title">Noite do Queijo & Vinho</h3>
+                        <p class="card-info">Uma noite agradável com música ao vivo e degustação de rótulos selecionados.</p>
+                        <button class="card-btn" style="background-color: #2563eb;">Ver Detalhes</button>
+                    </div>
+                </div>
+
+                <!-- Evento 3 -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200?text=Colonia+de+Ferias" alt="Colônia de Férias" class="card-img">
+                    <div class="card-content">
+                        <span class="badge">Infantil</span>
+                        <h3 class="card-title">Colônia de Férias Infantil</h3>
+                        <p class="card-info">Atividades recreativas, oficinas de arte e jogos para crianças de 5 a 12 anos.</p>
+                        <button class="card-btn" style="background-color: #2563eb;">Ver Detalhes</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
